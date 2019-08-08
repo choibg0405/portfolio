@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public class UserRepositoryImpl implements UserRepository {
     private static final Logger logger = LoggerFactory.getLogger(UserRepositoryImpl.class);
-    private static final String ns = "com.choi.model.mapper.User.";
+    private static final String ns = "com.choi.portfolio.model.mapper.User.";
 
     @Autowired
     SqlSessionTemplate template;
