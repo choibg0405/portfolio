@@ -4,7 +4,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.choi.model.mapper.User">
+<mapper namespace="com.choi.portfolio.model.mapper.User">
     <select id="selectAllUsers" resultType="User">
         select * from user_info
     </select>

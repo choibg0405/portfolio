@@ -1,7 +1,7 @@
-package com.choi.controller;
+package com.choi.portfolio.controller;
 
-import com.choi.model.dto.User;
-import com.choi.model.service.UserService;
+import com.choi.portfolio.model.dto.User;
+import com.choi.portfolio.model.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.choi.model.service;
+package com.choi.portfolio.model.service;
 
-import com.choi.model.dto.User;
-import com.choi.model.repository.UserRepository;
+import com.choi.portfolio.model.dto.User;
+import com.choi.portfolio.model.repository.UserRepository;
 
 import java.util.List;
 

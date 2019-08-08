@@ -1,6 +1,6 @@
-package com.choi.model.repository;
+package com.choi.portfolio.model.repository;
 
-import com.choi.model.dto.User;
+import com.choi.portfolio.model.dto.User;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

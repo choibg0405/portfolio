@@ -1,6 +1,8 @@
-package com.choi.model.dto;
+package com.choi.portfolio.model.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor

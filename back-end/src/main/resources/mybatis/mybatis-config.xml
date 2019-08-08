@@ -8,7 +8,7 @@
         <setting name="jdbcTypeForNull" value="NULL"/>
     </settings>
     <typeAliases>
-        <typeAlias type="com.choi.model.dto.User" alias="user"/>
+        <typeAlias type="com.choi.portfolio.model.dto.User" alias="user"/>
     </typeAliases>
     <mappers>
         <mapper resource="mybatis/user-mapper.xml"/>

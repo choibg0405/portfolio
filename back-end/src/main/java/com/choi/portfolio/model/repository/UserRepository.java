@@ -1,8 +1,8 @@
-package com.choi.model.repository;
+package com.choi.portfolio.model.repository;
+
+import com.choi.portfolio.model.dto.User;
 
 import java.util.List;
-
-import com.choi.model.dto.User;
 
 public interface UserRepository {
     List<User> selectAllUsers();
