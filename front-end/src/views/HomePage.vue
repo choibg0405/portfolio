@@ -1,16 +1,18 @@
 <template>
-    <div>
-        <span>여기는 홈페이지</span>
-        <v-flex v-for="user in getUsers" :key="user">
-            <span>아이디: {{user.id}}</span>
-            <br>
-            <span>비밀번호: {{user.password}}</span>
-            <br>
-            <span>이름: {{user.name}}</span>
-            <br>
-        </v-flex>
-        <span>위는 유저들</span>
-    </div>
+    <v-content>
+        <div class="background">
+            <span>여기는 홈페이지</span>
+            <v-flex v-for="user in getUsers" :key="user">
+                <span>아이디: {{user.id}}</span>
+                <br>
+                <span>비밀번호: {{user.password}}</span>
+                <br>
+                <span>이름: {{user.name}}</span>
+                <br>
+            </v-flex>
+            <span>위는 유저들</span>
+        </div>
+    </v-content>
 </template>
 
 <script>
@@ -37,5 +39,12 @@
 </script>
 
 <style scoped>
-
+    .background {
+        height: 90vh;
+        background-color: beige;
+        /* background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         */
+    }
 </style>
