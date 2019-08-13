@@ -1,11 +1,11 @@
 <template>
-    <v-content>
+    <div>
         <div class="menu-bar bar-type" @click="menuToggle">
             <span></span>
             <span></span>
+            <span></span>
         </div>
-    </v-content>
-
+    </div>
 </template>
 
 <script>
@@ -28,6 +28,7 @@
         right: 20px;
         width: 30px;
         height: 30px;
+        z-index: 100;
     }
 
     .menu-bar span {
@@ -52,28 +53,29 @@
     .menu-bar span:nth-child(3) {
     }
 
-    /* bar-type-1 */
+    /* bar-type */
 
     .bar-type span {
-        transform-origin: center;
-        transition: transform 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     }
 
-    .bar-type span:nth-child(1) {
-        margin-top: 6px;
+    .bar-type span:nth-child(3) {
+        width: 80%;
     }
 
     .bar-type.active span:nth-child(1) {
-        transform: translate3d(0, 5px, 0) rotate(45deg);
+        width: 100%;
+        transform: translate3d(0, 11px, 0) rotate(225deg);
     }
 
     .bar-type.active span:nth-child(2) {
-        transform: translate3d(0px, -7px, 0) rotate(-45deg);
+        width: 100%;
+        transform: translate3d(0, -1px, 0) rotate(-225deg);
     }
 
     .bar-type.active span:nth-child(3) {
-        width: 50%;
-        transform: translateY(-12px) rotate(-315deg);
+        width: 0;
     }
+
 
 </style>

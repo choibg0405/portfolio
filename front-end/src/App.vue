@@ -30,4 +30,10 @@
         text-align: center;
         color: #2c3e50;
     }
+
+    body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
 </style>
